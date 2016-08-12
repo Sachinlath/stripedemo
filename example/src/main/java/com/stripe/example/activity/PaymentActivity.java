@@ -127,6 +127,7 @@ public class PaymentActivity extends FragmentActivity {
         progressFragment.dismiss();
     }
 
+
     private void handleError(String error) {
         DialogFragment fragment = ErrorDialogFragment.newInstance(R.string.validationErrors, error);
         fragment.show(getSupportFragmentManager(), "error");
