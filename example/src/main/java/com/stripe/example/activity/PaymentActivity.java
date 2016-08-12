@@ -126,7 +126,7 @@ public class PaymentActivity extends FragmentActivity {
     private void finishProgress() {
         progressFragment.dismiss();
     }
-
+//commit code test
 
     private void handleError(String error) {
         DialogFragment fragment = ErrorDialogFragment.newInstance(R.string.validationErrors, error);
